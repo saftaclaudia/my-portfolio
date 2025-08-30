@@ -3,15 +3,25 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   const projectList = [
     {
-      title: "Art Portofolio Website",
+      title: "Art Portfolio Website",
       images: [
         "/images/ArtGallery-Home.png",
         "/images/ArtGallery-About.png",
         "/images/ArtGallery-Gallery.png",
         "/images/ArtGallery-Contact.png",
       ],
-      githubLink: "https://github.com/saftaclaudia/art-portofolio",
-      tech: ["React", "Tailwind", "Framer Motion"],
+      githubLink: "https://github.com/saftaclaudia/art-portfolio",
+      tech: ["React", "Tailwind", "Framer Motion", "Supabase"],
+    },
+    {
+      title: "Art Admin Portfolio",
+      images: [
+        "/images/ArtAdmin-Login.png",
+        "/images/ArtAdmin-Add.png",
+        "/images/ArtAdmin-Gallery.png",
+      ],
+      githubLink: "https://github.com/saftaclaudia/supabase-artworks",
+      tech: ["React", "Tailwind", "Framer Motion", "Supabase"],
     },
     {
       title: "Cookbook Website",
