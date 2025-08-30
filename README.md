@@ -1,12 +1,42 @@
-# React + Vite
+# Claudia Safta - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Screenshot](./public/images/Cookbook-Home.png)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is my personal front-end portfolio built with **React**, **Tailwind CSS**, and **React Router**.  
+It showcases my projects, skills, and ways to contact me. The portfolio supports **dark/light mode** toggle and is fully responsive.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Home page with animated Hero section
+- Projects page with reusable ProjectCard components
+- Image slider/carousel for project screenshots
+- Technology badges for each project
+- Contact form with validation
+- Social links (GitHub, LinkedIn, Email)
+- Dark/Light mode toggle
+- Back to top button
+- Fully responsive design
+
+---
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- React Router
+- Lucide Icons
+- Framer Motion (for animations)
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/saftaclaudia/my-portfolio.git
+```
